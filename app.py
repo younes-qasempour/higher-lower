@@ -1,7 +1,7 @@
 from flask import Flask
 import random
 
-random_number = random.randint(1, 9)
+random_number = random.randint(0, 9)
 app = Flask(__name__)
 
 
